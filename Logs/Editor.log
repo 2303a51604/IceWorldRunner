@@ -1,0 +1,612 @@
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 31464)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 7852)
+VBCSCompiler prewarm took 27.13 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/staging' branch; Version is '6000.6.7f1 (b22767f04f04) revision 11675495'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-golisrijareddy" at "2026-11-06T11:38:31.308674Z"
+OS: 'Windows 11  (10.0.26300) Core' Language: 'en' Physical Memory: 14060 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-06T11:38:31Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 16180, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              0be4bdda5338488bb0d54c8a3a880df9
+  Correlation Id:          14718626c8458c4ab3fc61ef35162585
+  External correlation Id: 2443698680683497559
+  Machine Id:              CAp6vd3lO1wdr0RPZGtwfcU9DVk=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-golisrijareddy" (connect: 0.00s, validation: 0.00s, handshake: 0.08s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-golisrijareddy-notifications" at "2026-11-06T11:38:31.3893942Z"
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token KkTw4miK9x...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469967762942-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.09s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.7f1\Editor\Unity.exe
+-projectpath
+C:\Users\golis\OneDrive\Desktop\IceWorldRunner
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-golisrijareddy
+-hubSessionId
+160caf1d-2ccd-47ff-a1a3-88c582249301
+-accessToken
+KkTw4miK9xCHmiHicFaRHNniQ3BBd5sViyJNKzCHTeU00cf
+Successfully changed project path to: C:\Users\golis\OneDrive\Desktop\IceWorldRunner
+C:/Users/golis/OneDrive/Desktop/IceWorldRunner
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [32804]  Target information:
+
+Player connection [32804]  * "[IP] 172.23.208.1 [Port] 55504 [Flags] 2 [Guid] 3746203936 [EditorId] 3746203936 [Version] 1048832 [Id] WindowsEditor(7,SrijaGoli) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [32804]  * "[IP] 192.168.29.92 [Port] 55504 [Flags] 2 [Guid] 3746203936 [EditorId] 3746203936 [Version] 1048832 [Id] WindowsEditor(7,SrijaGoli) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [32804] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [32804] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-12036" after 0.5 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: f7a2c78cdc5145e5a8b62f929acf20f6
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: false
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/golis/OneDrive/Desktop/IceWorldRunnerUnity Data Store running and initialised
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.7f1 (b22767f04f04)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=262144, entitiesPerBlock=1024, blocksPerSlotPage=0, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/golis/OneDrive/Desktop/IceWorldRunner/Assets
+[D3D12 Device Filter] Vendor Name: Intel
+[D3D12 Device Filter] Device Name: Intel(R) Iris(R) Xe Graphics
+[D3D12 Device Filter] Driver Version: 32.0.101.5542
+[D3D12 Device Filter] Feature Level: 12.1
+[D3D12 Device Filter] Graphics Memory: 7030 MB
+[D3D12 Device Filter] Processor Count: 12
+[D3D12 Device Filter] Device Type: Integrated
+[D3D12 Device Filter] D3D12 API denied by user filter: {"Vendor": "Intel", "Device Type:": Integrated}
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0xa7a1)
+    Vendor:   Intel
+    VRAM:     7030 MB
+    Driver:   32.0.101.5542
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004720 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.575 seconds
+Domain Reload Profiling: 2790ms
+	BeginReloadAssembly (269ms)
+		CreateAndSetChildDomain (9ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (63ms)
+	initialDomainReloadingComplete (191ms)
+	LoadAllAssembliesAndSetupDomain (667ms)
+		LoadAssemblies (254ms)
+		TypeCache.Refresh (445ms)
+			TypeCache.ScanAssembly (417ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (1578ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (4ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			BeforeProcessingInitializeOnLoad (233ms)
+			ProcessInitializeOnLoadAttributes (293ms)
+			ProcessInitializeOnLoadMethodAttributes (485ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Done resolving packages in 0.98 seconds
+[Licensing::Client] Successfully resolved entitlement details
+An error occurred while resolving packages:
+  Project has invalid dependencies:
+    com.unity.modules.scripting: Package [com.unity.modules.scripting@1.0.0] cannot be found
+    com.unity.modules.textrendering: Package [com.unity.modules.textrendering@1.0.0] cannot be found
+[Package Manager] Registered 15 packages:
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: C:\Users\golis\OneDrive\Desktop\IceWorldRunner\Library\PackageCache\com.unity.2d.sprite@752945c75a6f)
+    com.unity.2d.tilemap@1.0.0 (location: C:\Users\golis\OneDrive\Desktop\IceWorldRunner\Library\PackageCache\com.unity.2d.tilemap@f4c7bd71ac8a)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\golis\OneDrive\Desktop\IceWorldRunner\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\golis\OneDrive\Desktop\IceWorldRunner\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\golis\OneDrive\Desktop\IceWorldRunner\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\golis\OneDrive\Desktop\IceWorldRunner\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\golis\OneDrive\Desktop\IceWorldRunner\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\golis\OneDrive\Desktop\IceWorldRunner\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\golis\OneDrive\Desktop\IceWorldRunner\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\golis\OneDrive\Desktop\IceWorldRunner\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\golis\OneDrive\Desktop\IceWorldRunner\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\golis\OneDrive\Desktop\IceWorldRunner\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\golis\OneDrive\Desktop\IceWorldRunner\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\golis\OneDrive\Desktop\IceWorldRunner\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\golis\OneDrive\Desktop\IceWorldRunner\Library\PackageCache\com.unity.modules.hierarchycore)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.00 seconds
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.7f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/golis/OneDrive/Desktop/IceWorldRunner
+ExitCode: 0 Duration: 0s345ms
+[190/203    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.28 seconds), 1 items updated, 203 evaluated
+AssetDatabase: script compilation time: 1.399050s
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.935 seconds
+Domain Reload Profiling: 1886ms
+	BeginReloadAssembly (568ms)
+		DisableScriptedObjects (58ms)
+		CreateAndSetChildDomain (189ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (87ms)
+	LoadAllAssembliesAndSetupDomain (246ms)
+		LoadAssemblies (223ms)
+		TypeCache.Refresh (23ms)
+			TypeCache.ScanAssembly (14ms)
+		AnalyzeDomain (11ms)
+			BuildScriptInfoCaches (7ms)
+	FinalizeReload (937ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (183ms)
+			ProcessInitializeOnLoadAttributes (165ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
+			AfterProcessingInitializeOnLoad (11ms)
+		AwakeInstancesAfterBackupRestoration (40ms)
+Starting new worker id: 0 with log in C:/Users/golis/OneDrive/Desktop/IceWorldRunner/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=b5b87c56db9f12b46b0f5816ab5fd80f): Total: 10.034 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1336 ms
+		Asset DB Callback time: managed=48 ms, native=6208 ms
+		Scripting: domain reloads=1, domain reload time=1019 ms, compile time=1405 ms, other=16 ms
+		Project Asset Count: scripts=97, non-scripts=191
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 6211.440ms
+	ApplyChangesToAssetFolders: 1.018ms
+	Scan: 159.425ms
+	Collect global state as custom dependencies: 19.703ms
+	CategorizeScriptCompilationAssets: 0.731ms
+	ProcessAssetsWithTransientArtifactChanges: 11.949ms
+	CategorizeAssets: 6.095ms
+	CompileScripts: 1405.318ms
+	ImportOutOfDateAssets: 960.136ms (938.667ms without children)
+		UnloadImportedAssets: 0.170ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.088ms
+		ImportSchedulerStart: 21.193ms
+	PostProcessAllAssets: 48.330ms
+		MonoPostProcessAllAssets: 48.224ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 14.295ms
+			SyncVS.PostprocessSyncProject 3.598ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.915ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.224ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.445ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.336ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.296ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.146ms
+	UnloadStreamsBegin: 3.052ms
+	GenerateScriptTypeHashes: 2.116ms
+	GenerateScriptTypeSerializationHashes: 4.796ms
+	Untracked: 1156.292ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Scanning for USB devices : 1.400ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Ice World Runner
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 211 unused Assets / (481.6 KB). Loaded Objects now: 950.
+Memory consumption went from 238.2 MB to 237.7 MB.
+Total: 8.552800 ms (FindLiveObjects: 0.210600 ms CreateObjectMapping: 0.022100 ms MarkObjects: 7.700700 ms  DeleteObjects: 0.449900 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+[LAYOUT] About to save layout C:\Users\golis\OneDrive\Desktop\IceWorldRunner\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/golis/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
+<RI> Initializing input.
+Using Windows.Gaming.Input
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+[Project] Loading completed in 17.270 seconds
+	Project init time: 				15.126 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.484 seconds
+		Asset Database init time: 		0.949 seconds
+		Global illumination init time: 	0.004 seconds
+		Assemblies load time: 			2.898 seconds
+		Unity extensions init time: 	0.002 seconds
+		Asset Database refresh time: 	10.035 seconds
+	Scene opening time: 			1.699 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1793965128463,"processId":12036,"projectLoad":17.2704442,"projectInit":15.1263136,"templateInit":0.0,"packageManagerInit":0.4844478,"assetDatabaseInit":0.9489339,"globalIlluminationInit":0.0044682,"assembliesLoad":2.8976341,"unityExtensionsInit":0.002446,"assetDatabaseRefresh":10.0345119,"sceneOpening":1.6986152}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1793965128463,"processId":12036,"editorVersion":"6000.6.7f1 (b22767f04f04)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
+[MODES] ModeService[default].LoadModes
+[Licensing::Client] Successfully resolved entitlement details
+Created GICache directory at C:/Users/golis/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.026s, timestamps: [18.690 - 18.715]
+[Licensing::Client] Successfully resolved entitlement details
+Worker ready: AssetImportWorkerHW0 0
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "KkTw4miK"... (expires: 2026-11-06T12:21:15Z)
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+[Licensing::Client] Successfully resolved entitlement details
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  2.350 seconds
+Domain Reload Profiling: 3365ms
+	BeginReloadAssembly (665ms)
+		DisableScriptedObjects (190ms)
+		CreateAndSetChildDomain (184ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (219ms)
+		LoadAssemblies (186ms)
+		TypeCache.Refresh (7ms)
+		AnalyzeDomain (4ms)
+	FinalizeReload (2352ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (182ms)
+			ProcessInitializeOnLoadAttributes (127ms)
+			ProcessInitializeOnLoadMethodAttributes (164ms)
+			AfterProcessingInitializeOnLoad (10ms)
+		AwakeInstancesAfterBackupRestoration (1202ms)
+
+Asset Pipeline Refresh (id=ccaa011cd1a7e0b42946895e708bc390): Total: 3.645 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2474 ms
+		Asset DB Callback time: managed=84 ms, native=15 ms
+		Scripting: domain reloads=1, domain reload time=1065 ms, compile time=5 ms, other=0 ms
+		Project Asset Count: scripts=97, non-scripts=191
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 3.412ms
+	ApplyChangesToAssetFolders: 0.150ms
+	Collect global state as custom dependencies: 1.756ms
+	ProcessAssetsWithTransientArtifactChanges: 16.965ms
+	CategorizeAssets: 3.553ms
+	CompileScripts: 4.976ms
+	ImportOutOfDateAssets: 2358.046ms (2352.933ms without children)
+		UnloadImportedAssets: 4.568ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.074ms
+		ImportSchedulerStart: 0.458ms
+	PostProcessAllAssets: 94.599ms
+		PostprocessAssetsUpdateCachedIcon 0.916ms
+		PostProcessCallbackCreateDeferredMaterials 0.728ms
+		ShaderAssetModifiedCallback 0.360ms
+		RaytracingShaderImportPostprocess 0.299ms
+		VCAutoAddAssetPostprocess 0.219ms
+		SpeedTreeImporter.PostprocessAllAssets 0.205ms
+		ComputeShaderImportPostprocess 0.199ms
+		LocalizationDatabase.AssetDatabasePostprocessCallback 0.122ms
+		AssemblyValidation.PostprocessAllAssets 0.115ms
+		BlockShaderImporter.PostprocessAllAssets 0.106ms
+		MonoPostProcessAllAssets: 80.416ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 11.967ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 8.551ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 7.974ms
+			AssetPostprocessor.OnPostprocessAllAssets 7.408ms
+			AssetChangedListener.OnPostprocessAllAssets 3.623ms
+			SyncVS.PostprocessSyncProject 2.633ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 2.370ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 1.832ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.707ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 1.416ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.896ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.570ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.530ms
+			AssetProcessor.OnPostprocessAllAssets 0.484ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.457ms
+			AssetEvents.OnPostprocessAllAssets 0.379ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.373ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.361ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.336ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.313ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.309ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.287ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.284ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.154ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.133ms
+	PostAssetChangesProfiler: 4.853ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.059ms
+	UnloadStreamsBegin: 2.869ms
+	GenerateScriptTypeHashes: 1.107ms
+	GenerateScriptTypeSerializationHashes: 2.804ms
+	Untracked: 1109.676ms
+
+<color=cyan>[IceWorldRunner]</color> Initializing Frost Runner World...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+IceWorldRunner.GameBootstrap:InitializeGame () (at Assets/Scripts/Bootstrap/GameBootstrap.cs:24)
+IceWorldRunner.GameBootstrap:AutoBootstrap () (at Assets/Scripts/Bootstrap/GameBootstrap.cs:18)
+
+(Filename: Assets/Scripts/Bootstrap/GameBootstrap.cs Line: 24)
+
+<color=cyan>[IceWorldRunner]</color> Frost Runner World successfully initialized!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+IceWorldRunner.GameBootstrap:InitializeGame () (at Assets/Scripts/Bootstrap/GameBootstrap.cs:121)
+IceWorldRunner.GameBootstrap:AutoBootstrap () (at Assets/Scripts/Bootstrap/GameBootstrap.cs:18)
+
+(Filename: Assets/Scripts/Bootstrap/GameBootstrap.cs Line: 121)
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.308 ms
+	Integration:            144.362 ms
+	Integration of assets:  0.006 ms
+	Thread Wait Time:       0.037 ms
+	Total Operation Time:   145.713 ms
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildRunway (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:167)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:139)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:75)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 139]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildRunway (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:167)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:139)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:76)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 139]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildRunway (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:167)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:139)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 139]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildRunway (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:167)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:139)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 139]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:205)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:208)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:211)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreateHazardSpikes (UnityEngine.GameObject,UnityEngine.Vector3,single) (at Assets/Scripts/Spawners/ChunkManager.cs:377)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:214)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildBouncyGeyser (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:262)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:154)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 154]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildBouncyGeyser (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:265)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:154)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 154]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildBouncyGeyser (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:268)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:154)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 154]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildBouncyGeyser (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:271)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:154)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 154]
+
+[Licensing::Client] Successfully resolved entitlement details
+MonoPathRemapper: Attempts to remap: 6488; Successful remaps: 1042
+Serialized file version minimum: 23, current 23
+[LAYOUT] About to save layout C:\Users\golis\OneDrive\Desktop\IceWorldRunner\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/golis/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-golisrijareddy-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-golisrijareddy channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+Shut down UDS service system complete
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+abort_threads: Failed aborting id: 0000000000003D48, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000003984, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000003D48, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000003984, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 3564
+VBCSCompilerPreWarmer: requested VBCSCompiler shutdown
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1793965145639,"processId":12036,"allocatedMemory":10934988,"memoryLabels":[{"Default":155628},{"Permanent":15516},{"NewDelete":68269},{"Thread":4190136},{"Manager":32733},{"VertexData":8},{"Geometry":824},{"Texture":24},{"Shader":840511},{"Material":132},{"GfxDevice":55968},{"GfxThread":24},{"Animation":952},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":16992},{"Input":45280},{"JobScheduler":256},{"TextLib":21846},{"Mono":48},{"ScriptingNativeRuntime":1210712},{"BaseObject":60672},{"Resource":1444},{"Renderer":2504},{"Transform":4781},{"File":16300},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":334690},{"StaticString":3808},{"Utility":2674402},{"Curl":48},{"PoolAlloc":2168},{"AI":80},{"TypeTree":8869},{"ScriptManager":18984},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7728},{"WebRequest":4582},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"Camera":729},{"Secure":265},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"EntityIdStore":33088},{"Gui":286},{"EditorUtility":145304},{"VersionControl":8},{"Undo":931},{"AssetDatabase":433031},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36105},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":278},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3600},{"Windowing":456},{"Licensing":12814},{"AssetReference":32},{"IPCStream":32}]}

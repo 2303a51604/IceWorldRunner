@@ -1,0 +1,2476 @@
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 27012)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 25756)
+VBCSCompiler prewarm took 28.23 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-golisrijareddy" at "2026-11-06T11:30:16.4596054Z"
+Built from '6000.6/staging' branch; Version is '6000.6.7f1 (b22767f04f04) revision 11675495'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26300) Core' Language: 'en' Physical Memory: 14060 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-06T11:30:16Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 16180, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              df14a372285843a0b97c862d5a81c87d
+  Correlation Id:          14718626c8458c4ab3fc61ef35162585
+  External correlation Id: 3538388127026107768
+  Machine Id:              CAp6vd3lO1wdr0RPZGtwfcU9DVk=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-golisrijareddy" (connect: 0.00s, validation: 0.01s, handshake: 0.10s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-golisrijareddy-notifications" at "2026-11-06T11:30:16.5680642Z"
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token KkTw4miK9x...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469967762942-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.13s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.7f1\Editor\Unity.exe
+-projectpath
+C:\Users\golis\OneDrive\Desktop\IceWorldRunner
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-golisrijareddy
+-hubSessionId
+160caf1d-2ccd-47ff-a1a3-88c582249301
+-accessToken
+KkTw4miK9xCHmiHicFaRHNniQ3BBd5sViyJNKzCHTeU00cf
+Successfully changed project path to: C:\Users\golis\OneDrive\Desktop\IceWorldRunner
+C:/Users/golis/OneDrive/Desktop/IceWorldRunner
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [34544]  Target information:
+
+Player connection [34544]  * "[IP] 172.23.208.1 [Port] 55504 [Flags] 2 [Guid] 4253712270 [EditorId] 4253712270 [Version] 1048832 [Id] WindowsEditor(7,SrijaGoli) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [34544]  * "[IP] 192.168.29.92 [Port] 55504 [Flags] 2 [Guid] 4253712270 [EditorId] 4253712270 [Version] 1048832 [Id] WindowsEditor(7,SrijaGoli) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [34544] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [34544] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-6068" after 0.5 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: f7a2c78cdc5145e5a8b62f929acf20f6
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: false
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/golis/OneDrive/Desktop/IceWorldRunnerUnity Data Store running and initialised
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.7f1 (b22767f04f04)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=262144, entitiesPerBlock=1024, blocksPerSlotPage=0, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/golis/OneDrive/Desktop/IceWorldRunner/Assets
+[D3D12 Device Filter] Vendor Name: Intel
+[D3D12 Device Filter] Device Name: Intel(R) Iris(R) Xe Graphics
+[D3D12 Device Filter] Driver Version: 32.0.101.5542
+[D3D12 Device Filter] Feature Level: 12.1
+[D3D12 Device Filter] Graphics Memory: 7030 MB
+[D3D12 Device Filter] Processor Count: 12
+[D3D12 Device Filter] Device Type: Integrated
+[D3D12 Device Filter] D3D12 API denied by user filter: {"Vendor": "Intel", "Device Type:": Integrated}
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0xa7a1)
+    Vendor:   Intel
+    VRAM:     7030 MB
+    Driver:   32.0.101.5542
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002713 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.719 seconds
+Domain Reload Profiling: 2846ms
+	BeginReloadAssembly (325ms)
+		CreateAndSetChildDomain (8ms)
+	RebuildCommonClasses (11ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (122ms)
+	LoadAllAssembliesAndSetupDomain (640ms)
+		LoadAssemblies (272ms)
+		TypeCache.Refresh (439ms)
+			TypeCache.ScanAssembly (408ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (1721ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (4ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (206ms)
+			ProcessInitializeOnLoadAttributes (212ms)
+			ProcessInitializeOnLoadMethodAttributes (835ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Done resolving packages in 0.97 seconds
+[Licensing::Client] Successfully resolved entitlement details
+An error occurred while resolving packages:
+  Project has invalid dependencies:
+    com.unity.modules.scripting: Package [com.unity.modules.scripting@1.0.0] cannot be found
+    com.unity.modules.textrendering: Package [com.unity.modules.textrendering@1.0.0] cannot be found
+[Package Manager] Registered 15 packages:
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: C:\Users\golis\OneDrive\Desktop\IceWorldRunner\Library\PackageCache\com.unity.2d.sprite@752945c75a6f)
+    com.unity.2d.tilemap@1.0.0 (location: C:\Users\golis\OneDrive\Desktop\IceWorldRunner\Library\PackageCache\com.unity.2d.tilemap@f4c7bd71ac8a)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\golis\OneDrive\Desktop\IceWorldRunner\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\golis\OneDrive\Desktop\IceWorldRunner\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\golis\OneDrive\Desktop\IceWorldRunner\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\golis\OneDrive\Desktop\IceWorldRunner\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\golis\OneDrive\Desktop\IceWorldRunner\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\golis\OneDrive\Desktop\IceWorldRunner\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\golis\OneDrive\Desktop\IceWorldRunner\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\golis\OneDrive\Desktop\IceWorldRunner\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\golis\OneDrive\Desktop\IceWorldRunner\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\golis\OneDrive\Desktop\IceWorldRunner\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\golis\OneDrive\Desktop\IceWorldRunner\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\golis\OneDrive\Desktop\IceWorldRunner\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\golis\OneDrive\Desktop\IceWorldRunner\Library\PackageCache\com.unity.modules.hierarchycore)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.00 seconds
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.7f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/golis/OneDrive/Desktop/IceWorldRunner
+ExitCode: 0 Duration: 0s441ms
+[190/203    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.36 seconds), 1 items updated, 203 evaluated
+AssetDatabase: script compilation time: 1.140785s
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.923 seconds
+Domain Reload Profiling: 1863ms
+	BeginReloadAssembly (576ms)
+		DisableScriptedObjects (63ms)
+		CreateAndSetChildDomain (206ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (238ms)
+		LoadAssemblies (193ms)
+		TypeCache.Refresh (23ms)
+			TypeCache.ScanAssembly (14ms)
+		AnalyzeDomain (11ms)
+			BuildScriptInfoCaches (7ms)
+	FinalizeReload (925ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (173ms)
+			ProcessInitializeOnLoadAttributes (162ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (14ms)
+		AwakeInstancesAfterBackupRestoration (40ms)
+Starting new worker id: 0 with log in C:/Users/golis/OneDrive/Desktop/IceWorldRunner/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=658509d997d68d64dbad4c1b5266c452): Total: 23.594 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1261 ms
+		Asset DB Callback time: managed=44 ms, native=20118 ms
+		Scripting: domain reloads=1, domain reload time=1007 ms, compile time=1147 ms, other=14 ms
+		Project Asset Count: scripts=97, non-scripts=191
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 20122.541ms
+	ApplyChangesToAssetFolders: 0.951ms
+	Scan: 120.458ms
+	Collect global state as custom dependencies: 18.384ms
+	CategorizeScriptCompilationAssets: 0.708ms
+	ProcessAssetsWithTransientArtifactChanges: 9.633ms
+	CategorizeAssets: 5.418ms
+	CompileScripts: 1147.268ms
+	ImportOutOfDateAssets: 947.207ms (926.231ms without children)
+		UnloadImportedAssets: 0.179ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.095ms
+		ImportSchedulerStart: 20.695ms
+	PostProcessAllAssets: 45.044ms
+		MonoPostProcessAllAssets: 44.939ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 13.456ms
+			SyncVS.PostprocessSyncProject 3.757ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 2.011ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.567ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.398ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.385ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.262ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.128ms
+	UnloadStreamsBegin: 3.147ms
+	GenerateScriptTypeHashes: 1.874ms
+	GenerateScriptTypeSerializationHashes: 4.226ms
+	Untracked: 1125.160ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Scanning for USB devices : 1.083ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Ice World Runner
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 211 unused Assets / (480.5 KB). Loaded Objects now: 950.
+Memory consumption went from 241.1 MB to 240.7 MB.
+Total: 8.030900 ms (FindLiveObjects: 0.256400 ms CreateObjectMapping: 0.020700 ms MarkObjects: 7.139000 ms  DeleteObjects: 0.420600 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+[LAYOUT] About to save layout C:\Users\golis\OneDrive\Desktop\IceWorldRunner\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/golis/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
+<RI> Initializing input.
+Using Windows.Gaming.Input
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+[Project] Loading completed in 31.386 seconds
+	Project init time: 				29.221 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.506 seconds
+		Asset Database init time: 		1.071 seconds
+		Global illumination init time: 	0.011 seconds
+		Assemblies load time: 			2.999 seconds
+		Unity extensions init time: 	0.002 seconds
+		Asset Database refresh time: 	23.595 seconds
+	Scene opening time: 			1.702 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1793964647785,"processId":6068,"projectLoad":31.385835699999998,"projectInit":29.2212064,"templateInit":0.0,"packageManagerInit":0.5060216,"assetDatabaseInit":1.0712881,"globalIlluminationInit":0.0111013,"assembliesLoad":2.9986663,"unityExtensionsInit":0.0017296,"assetDatabaseRefresh":23.5945848,"sceneOpening":1.7018139}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1793964647785,"processId":6068,"editorVersion":"6000.6.7f1 (b22767f04f04)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
+Asset Pipeline Refresh (id=0c1162e5a9422084fabefb3fbda0fabd): Total: 0.045 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[MODES] ModeService[default].LoadModes
+Worker ready: AssetImportWorkerHW0 0
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Created GICache directory at C:/Users/golis/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.027s, timestamps: [32.909 - 32.936]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Starting new worker id: 1 with log in C:/Users/golis/OneDrive/Desktop/IceWorldRunner/Logs/AssetImportWorkerHW1.log
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "KkTw4miK"... (expires: 2026-11-06T12:21:15Z)
+[Worker0] Imported GUID: 3e923d8ac84167d46be3516e08ca4d33 - Path: Assets/Scripts/Core/GameManager.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c49d64062badbce5e7d869970bd0052c') in 0.1979473 seconds
+[Worker0] Imported GUID: bc8563399109e944d93430b600608d35 - Path: Assets/Scripts/Core/InputHelper.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '43274cf6111bfa96fadd43466edce9d6') in 0.0044759 seconds
+[Worker0] Imported GUID: e8d387bc579a35e4999adb7bea01b148 - Path: Assets/Scripts/Player/PlayerEffects.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '26cd1fc00de271d466c61b8c5a8056bc') in 0.0067936 seconds
+[Worker0] Imported GUID: ede552d5068eef04a8843cce993178b4 - Path: Assets/Scripts/Player/PlayerController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5cf986b70f34a41c41b0440e50122cc8') in 0.0051746 seconds
+[Worker0] Imported GUID: 7e33a387c33304944908d4b66e1f06f3 - Path: Assets/Scripts/Environment/BlizzardController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9950c5daac644a69e07a26acf5351aba') in 0.0056757 seconds
+[Licensing::Client] Successfully resolved entitlement details
+Worker ready: AssetImportWorkerHW1 1
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  2.103 seconds
+Domain Reload Profiling: 3145ms
+	BeginReloadAssembly (704ms)
+		DisableScriptedObjects (209ms)
+		CreateAndSetChildDomain (206ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (222ms)
+		LoadAssemblies (187ms)
+		TypeCache.Refresh (8ms)
+		AnalyzeDomain (3ms)
+	FinalizeReload (2106ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (161ms)
+			ProcessInitializeOnLoadAttributes (118ms)
+			ProcessInitializeOnLoadMethodAttributes (155ms)
+			AfterProcessingInitializeOnLoad (11ms)
+		AwakeInstancesAfterBackupRestoration (1036ms)
+
+Asset Pipeline Refresh (id=937b36084bd18944b9d55126455da709): Total: 3.429 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2207 ms
+		Asset DB Callback time: managed=95 ms, native=17 ms
+		Scripting: domain reloads=1, domain reload time=1102 ms, compile time=5 ms, other=0 ms
+		Project Asset Count: scripts=97, non-scripts=191
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 3.877ms
+	ApplyChangesToAssetFolders: 0.143ms
+	Collect global state as custom dependencies: 1.788ms
+	ProcessAssetsWithTransientArtifactChanges: 15.488ms
+	CategorizeAssets: 3.908ms
+	CompileScripts: 5.211ms
+	ImportOutOfDateAssets: 2112.163ms (2106.797ms without children)
+		UnloadImportedAssets: 4.519ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.105ms
+		ImportSchedulerStart: 0.725ms
+	PostProcessAllAssets: 106.216ms
+		PostProcessCallbackCreateDeferredMaterials 1.091ms
+		PostprocessAssetsUpdateCachedIcon 0.899ms
+		ShaderAssetModifiedCallback 0.565ms
+		ComputeShaderImportPostprocess 0.388ms
+		RaytracingShaderImportPostprocess 0.337ms
+		SpeedTreeImporter.PostprocessAllAssets 0.277ms
+		BlockShaderImporter.PostprocessAllAssets 0.190ms
+		LocalizationDatabase.AssetDatabasePostprocessCallback 0.182ms
+		AssemblyValidation.PostprocessAllAssets 0.166ms
+		MonoPostProcessAllAssets: 90.205ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 11.742ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 10.349ms
+			AssetPostprocessor.OnPostprocessAllAssets 9.562ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 6.706ms
+			AssetChangedListener.OnPostprocessAllAssets 5.215ms
+			SyncVS.PostprocessSyncProject 2.856ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 2.760ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 2.535ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.986ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.272ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 1.152ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.726ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.642ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.540ms
+			AssetEvents.OnPostprocessAllAssets 0.510ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.500ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.447ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.376ms
+			AssetProcessor.OnPostprocessAllAssets 0.372ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.359ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.356ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.323ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.262ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.253ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.194ms
+	PostAssetChangesProfiler: 5.937ms
+	UnloadStreamsBegin: 2.870ms
+	GenerateScriptTypeHashes: 0.944ms
+	GenerateScriptTypeSerializationHashes: 2.390ms
+	Untracked: 1141.532ms
+
+<color=cyan>[IceWorldRunner]</color> Initializing Frost Runner World...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+IceWorldRunner.GameBootstrap:InitializeGame () (at Assets/Scripts/Bootstrap/GameBootstrap.cs:24)
+IceWorldRunner.GameBootstrap:AutoBootstrap () (at Assets/Scripts/Bootstrap/GameBootstrap.cs:18)
+
+(Filename: Assets/Scripts/Bootstrap/GameBootstrap.cs Line: 24)
+
+<color=cyan>[IceWorldRunner]</color> Frost Runner World successfully initialized!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+IceWorldRunner.GameBootstrap:InitializeGame () (at Assets/Scripts/Bootstrap/GameBootstrap.cs:121)
+IceWorldRunner.GameBootstrap:AutoBootstrap () (at Assets/Scripts/Bootstrap/GameBootstrap.cs:18)
+
+(Filename: Assets/Scripts/Bootstrap/GameBootstrap.cs Line: 121)
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.121 ms
+	Integration:            159.692 ms
+	Integration of assets:  0.006 ms
+	Thread Wait Time:       0.077 ms
+	Total Operation Time:   160.896 ms
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildRunway (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:167)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:139)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:75)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 139]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildRunway (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:167)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:139)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:76)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 139]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildRunway (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:167)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:139)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 139]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildRunway (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:167)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:139)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 139]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildSlideGauntlet (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:182)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:142)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 142]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildSlideGauntlet (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:187)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:142)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 142]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildIcicleDropAlley (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:246)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:151)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 151]
+
+[Licensing::Client] Successfully resolved entitlement details
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildBouncyGeyser (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:262)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:154)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 154]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildBouncyGeyser (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:265)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:154)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 154]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildBouncyGeyser (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:268)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:154)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 154]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildBouncyGeyser (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:271)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:154)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 154]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildIcicleDropAlley (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:246)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:151)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 151]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:205)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:208)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:211)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreateHazardSpikes (UnityEngine.GameObject,UnityEngine.Vector3,single) (at Assets/Scripts/Spawners/ChunkManager.cs:377)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:214)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+TrimDiskCacheJob: Current cache size 0mb
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:205)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:208)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:211)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreateHazardSpikes (UnityEngine.GameObject,UnityEngine.Vector3,single) (at Assets/Scripts/Spawners/ChunkManager.cs:377)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:214)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Tag: Ground is not defined.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.GameObject:CompareTag_Internal (string)
+UnityEngine.GameObject:CompareTag (string)
+UnityEngine.Component:CompareTag (string)
+IceWorldRunner.FallingIcicle:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Scripts/Environment/FallingIcicle.cs:95)
+
+[Assets/Scripts/Environment/FallingIcicle.cs line 95]
+
+Tag: Ground is not defined.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.GameObject:CompareTag_Internal (string)
+UnityEngine.GameObject:CompareTag (string)
+UnityEngine.Component:CompareTag (string)
+IceWorldRunner.FallingIcicle:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Scripts/Environment/FallingIcicle.cs:95)
+
+[Assets/Scripts/Environment/FallingIcicle.cs line 95]
+
+Tag: Ground is not defined.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.GameObject:CompareTag_Internal (string)
+UnityEngine.GameObject:CompareTag (string)
+UnityEngine.Component:CompareTag (string)
+IceWorldRunner.FallingIcicle:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Scripts/Environment/FallingIcicle.cs:95)
+
+[Assets/Scripts/Environment/FallingIcicle.cs line 95]
+
+Tag: Ground is not defined.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.GameObject:CompareTag_Internal (string)
+UnityEngine.GameObject:CompareTag (string)
+UnityEngine.Component:CompareTag (string)
+IceWorldRunner.FallingIcicle:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Scripts/Environment/FallingIcicle.cs:95)
+
+[Assets/Scripts/Environment/FallingIcicle.cs line 95]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildBouncyGeyser (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:262)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:154)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 154]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildBouncyGeyser (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:265)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:154)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 154]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildBouncyGeyser (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:268)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:154)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 154]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildBouncyGeyser (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:271)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:154)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 154]
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.139300 ms
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.909 ms
+	Integration:            18.595 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       3.972 ms
+	Total Operation Time:   23.479 ms
+Unloading 287 unused Assets / (17.5 MB). Loaded Objects now: 2005.
+Memory consumption went from 410.6 MB to 393.1 MB.
+Total: 24.667800 ms (FindLiveObjects: 0.530100 ms CreateObjectMapping: 0.032200 ms MarkObjects: 18.453500 ms  DeleteObjects: 5.456100 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.458 ms
+	Integration:            39.305 ms
+	Integration of assets:  0.008 ms
+	Thread Wait Time:       0.043 ms
+	Total Operation Time:   40.815 ms
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 1979.
+Memory consumption went from 392.1 MB to 392.1 MB.
+Total: 40.410700 ms (FindLiveObjects: 1.011500 ms CreateObjectMapping: 0.112500 ms MarkObjects: 38.913000 ms  DeleteObjects: 0.018100 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  2.113 seconds
+Domain Reload Profiling: 3160ms
+	BeginReloadAssembly (706ms)
+		DisableScriptedObjects (234ms)
+		CreateAndSetChildDomain (185ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (233ms)
+		LoadAssemblies (192ms)
+		TypeCache.Refresh (6ms)
+		AnalyzeDomain (4ms)
+	FinalizeReload (2115ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (176ms)
+			ProcessInitializeOnLoadAttributes (108ms)
+			ProcessInitializeOnLoadMethodAttributes (149ms)
+			AfterProcessingInitializeOnLoad (11ms)
+		AwakeInstancesAfterBackupRestoration (1040ms)
+
+Asset Pipeline Refresh (id=795a71d7e6104074d8d4de8eadd84654): Total: 3.367 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2213 ms
+		Asset DB Callback time: managed=34 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=1112 ms, compile time=5 ms, other=0 ms
+		Project Asset Count: scripts=97, non-scripts=191
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 3.529ms
+	ApplyChangesToAssetFolders: 0.161ms
+	Collect global state as custom dependencies: 2.570ms
+	ProcessAssetsWithTransientArtifactChanges: 0.054ms
+	CategorizeAssets: 3.922ms
+	CompileScripts: 5.472ms
+	ImportOutOfDateAssets: 2117.082ms (2115.682ms without children)
+		UnloadImportedAssets: 0.453ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.074ms
+		ImportSchedulerStart: 0.863ms
+	PostProcessAllAssets: 34.578ms
+		MonoPostProcessAllAssets: 34.569ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 10.349ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 10.278ms
+			AssetPostprocessor.OnPostprocessAllAssets 9.562ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 6.706ms
+			AssetChangedListener.OnPostprocessAllAssets 5.215ms
+			SyncVS.PostprocessSyncProject 3.283ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 2.760ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 2.535ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.712ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.272ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 1.152ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.726ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.575ms
+			AssetEvents.OnPostprocessAllAssets 0.510ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.509ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.500ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.376ms
+			AssetProcessor.OnPostprocessAllAssets 0.372ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.357ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.356ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.323ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.298ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.262ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.206ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.194ms
+	GenerateScriptTypeHashes: 1.085ms
+	GenerateScriptTypeSerializationHashes: 2.667ms
+	Untracked: 1154.350ms
+
+<color=cyan>[IceWorldRunner]</color> Initializing Frost Runner World...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+IceWorldRunner.GameBootstrap:InitializeGame () (at Assets/Scripts/Bootstrap/GameBootstrap.cs:24)
+IceWorldRunner.GameBootstrap:AutoBootstrap () (at Assets/Scripts/Bootstrap/GameBootstrap.cs:18)
+
+(Filename: Assets/Scripts/Bootstrap/GameBootstrap.cs Line: 24)
+
+<color=cyan>[IceWorldRunner]</color> Frost Runner World successfully initialized!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+IceWorldRunner.GameBootstrap:InitializeGame () (at Assets/Scripts/Bootstrap/GameBootstrap.cs:121)
+IceWorldRunner.GameBootstrap:AutoBootstrap () (at Assets/Scripts/Bootstrap/GameBootstrap.cs:18)
+
+(Filename: Assets/Scripts/Bootstrap/GameBootstrap.cs Line: 121)
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.926 ms
+	Integration:            119.054 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.024 ms
+	Total Operation Time:   120.007 ms
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildRunway (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:167)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:139)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:75)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 139]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildRunway (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:167)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:139)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:76)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 139]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildRunway (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:167)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:139)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 139]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildRunway (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:167)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:139)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 139]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildBouncyGeyser (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:262)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:154)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 154]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildBouncyGeyser (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:265)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:154)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 154]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildBouncyGeyser (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:268)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:154)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 154]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildBouncyGeyser (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:271)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:154)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 154]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:205)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:208)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:211)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreateHazardSpikes (UnityEngine.GameObject,UnityEngine.Vector3,single) (at Assets/Scripts/Spawners/ChunkManager.cs:377)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:214)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+[Licensing::Client] Successfully resolved entitlement details
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildFragileIceSteps (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:224)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:148)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 148]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreateFragilePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2) (at Assets/Scripts/Spawners/ChunkManager.cs:320)
+IceWorldRunner.ChunkManager:BuildFragileIceSteps (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:227)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:148)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 148]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreateFragilePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2) (at Assets/Scripts/Spawners/ChunkManager.cs:320)
+IceWorldRunner.ChunkManager:BuildFragileIceSteps (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:228)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:148)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 148]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreateFragilePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2) (at Assets/Scripts/Spawners/ChunkManager.cs:320)
+IceWorldRunner.ChunkManager:BuildFragileIceSteps (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:229)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:148)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 148]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildFragileIceSteps (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:232)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:148)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 148]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreateHazardSpikes (UnityEngine.GameObject,UnityEngine.Vector3,single) (at Assets/Scripts/Spawners/ChunkManager.cs:377)
+IceWorldRunner.ChunkManager:BuildFragileIceSteps (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:235)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:148)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 148]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildIcicleDropAlley (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:246)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:151)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 151]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:205)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:208)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:211)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreateHazardSpikes (UnityEngine.GameObject,UnityEngine.Vector3,single) (at Assets/Scripts/Spawners/ChunkManager.cs:377)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:214)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildIcicleDropAlley (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:246)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:151)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 151]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:205)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:208)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:211)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreateHazardSpikes (UnityEngine.GameObject,UnityEngine.Vector3,single) (at Assets/Scripts/Spawners/ChunkManager.cs:377)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:214)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Asset Pipeline Refresh (id=be478d7368259fb48bc4caf60a78b39f): Total: 0.017 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=72e4bdebd4fc14c4aa9e8dba15f6d834): Total: 0.005 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.517600 ms
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.341 ms
+	Integration:            21.507 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       3.310 ms
+	Total Operation Time:   26.162 ms
+Unloading 41 unused Assets / (444.9 KB). Loaded Objects now: 2006.
+Memory consumption went from 400.3 MB to 399.9 MB.
+Total: 17.198900 ms (FindLiveObjects: 0.458000 ms CreateObjectMapping: 0.029800 ms MarkObjects: 16.347200 ms  DeleteObjects: 0.172200 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.045 ms
+	Integration:            21.862 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.021 ms
+	Total Operation Time:   22.932 ms
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 1980.
+Memory consumption went from 399.4 MB to 399.4 MB.
+Total: 18.519800 ms (FindLiveObjects: 0.498800 ms CreateObjectMapping: 0.031900 ms MarkObjects: 17.801800 ms  DeleteObjects: 0.011300 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  2.076 seconds
+Domain Reload Profiling: 3119ms
+	BeginReloadAssembly (702ms)
+		DisableScriptedObjects (238ms)
+		CreateAndSetChildDomain (171ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (221ms)
+		LoadAssemblies (190ms)
+		TypeCache.Refresh (7ms)
+		AnalyzeDomain (4ms)
+	FinalizeReload (2079ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (164ms)
+			ProcessInitializeOnLoadAttributes (109ms)
+			ProcessInitializeOnLoadMethodAttributes (136ms)
+			AfterProcessingInitializeOnLoad (11ms)
+		AwakeInstancesAfterBackupRestoration (1036ms)
+
+Asset Pipeline Refresh (id=11906229239725945aa10290dfc33074): Total: 3.315 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2173 ms
+		Asset DB Callback time: managed=37 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=1098 ms, compile time=6 ms, other=0 ms
+		Project Asset Count: scripts=97, non-scripts=191
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 3.820ms
+	ApplyChangesToAssetFolders: 0.157ms
+	Collect global state as custom dependencies: 2.485ms
+	CategorizeAssets: 3.475ms
+	CompileScripts: 5.529ms
+	ImportOutOfDateAssets: 2080.686ms (2079.464ms without children)
+		UnloadImportedAssets: 0.417ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.070ms
+		ImportSchedulerStart: 0.720ms
+	PostProcessAllAssets: 37.178ms
+		MonoPostProcessAllAssets: 37.169ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 12.365ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 10.349ms
+			AssetPostprocessor.OnPostprocessAllAssets 9.562ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 6.706ms
+			AssetChangedListener.OnPostprocessAllAssets 5.215ms
+			SyncVS.PostprocessSyncProject 3.409ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 2.760ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 2.535ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.699ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.272ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 1.152ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.726ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.616ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.554ms
+			AssetEvents.OnPostprocessAllAssets 0.510ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.500ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.376ms
+			AssetProcessor.OnPostprocessAllAssets 0.372ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.356ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.339ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.323ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.310ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.262ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.200ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.194ms
+	UnloadStreamsBegin: 0.053ms
+	GenerateScriptTypeHashes: 1.117ms
+	GenerateScriptTypeSerializationHashes: 2.778ms
+	Untracked: 1135.209ms
+
+<color=cyan>[IceWorldRunner]</color> Initializing Frost Runner World...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+IceWorldRunner.GameBootstrap:InitializeGame () (at Assets/Scripts/Bootstrap/GameBootstrap.cs:24)
+IceWorldRunner.GameBootstrap:AutoBootstrap () (at Assets/Scripts/Bootstrap/GameBootstrap.cs:18)
+
+(Filename: Assets/Scripts/Bootstrap/GameBootstrap.cs Line: 24)
+
+<color=cyan>[IceWorldRunner]</color> Frost Runner World successfully initialized!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+IceWorldRunner.GameBootstrap:InitializeGame () (at Assets/Scripts/Bootstrap/GameBootstrap.cs:121)
+IceWorldRunner.GameBootstrap:AutoBootstrap () (at Assets/Scripts/Bootstrap/GameBootstrap.cs:18)
+
+(Filename: Assets/Scripts/Bootstrap/GameBootstrap.cs Line: 121)
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.041 ms
+	Integration:            139.274 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.029 ms
+	Total Operation Time:   140.348 ms
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildRunway (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:167)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:139)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:75)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 139]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildRunway (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:167)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:139)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:76)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 139]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildRunway (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:167)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:139)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 139]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildRunway (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:167)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:139)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 139]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildIcicleDropAlley (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:246)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:151)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 151]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:205)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:208)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:211)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreateHazardSpikes (UnityEngine.GameObject,UnityEngine.Vector3,single) (at Assets/Scripts/Spawners/ChunkManager.cs:377)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:214)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+[Licensing::Client] Successfully resolved entitlement details
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:205)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:208)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:211)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreateHazardSpikes (UnityEngine.GameObject,UnityEngine.Vector3,single) (at Assets/Scripts/Spawners/ChunkManager.cs:377)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:214)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildBouncyGeyser (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:262)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:154)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 154]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildBouncyGeyser (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:265)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:154)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 154]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildBouncyGeyser (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:268)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:154)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 154]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildBouncyGeyser (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:271)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:154)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 154]
+
+Asset Pipeline Refresh (id=9e528ce95e74b93418e28b0b5f275949): Total: 0.022 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildFragileIceSteps (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:224)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:148)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 148]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreateFragilePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2) (at Assets/Scripts/Spawners/ChunkManager.cs:320)
+IceWorldRunner.ChunkManager:BuildFragileIceSteps (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:227)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:148)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 148]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreateFragilePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2) (at Assets/Scripts/Spawners/ChunkManager.cs:320)
+IceWorldRunner.ChunkManager:BuildFragileIceSteps (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:228)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:148)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 148]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreateFragilePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2) (at Assets/Scripts/Spawners/ChunkManager.cs:320)
+IceWorldRunner.ChunkManager:BuildFragileIceSteps (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:229)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:148)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 148]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildFragileIceSteps (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:232)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:148)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 148]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreateHazardSpikes (UnityEngine.GameObject,UnityEngine.Vector3,single) (at Assets/Scripts/Spawners/ChunkManager.cs:377)
+IceWorldRunner.ChunkManager:BuildFragileIceSteps (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:235)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:148)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 148]
+
+Tag: Ground is not defined.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.GameObject:CompareTag_Internal (string)
+UnityEngine.GameObject:CompareTag (string)
+UnityEngine.Component:CompareTag (string)
+IceWorldRunner.FallingIcicle:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Scripts/Environment/FallingIcicle.cs:95)
+
+[Assets/Scripts/Environment/FallingIcicle.cs line 95]
+
+Tag: Ground is not defined.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.GameObject:CompareTag_Internal (string)
+UnityEngine.GameObject:CompareTag (string)
+UnityEngine.Component:CompareTag (string)
+IceWorldRunner.FallingIcicle:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Scripts/Environment/FallingIcicle.cs:95)
+
+[Assets/Scripts/Environment/FallingIcicle.cs line 95]
+
+Tag: Ground is not defined.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.GameObject:CompareTag_Internal (string)
+UnityEngine.GameObject:CompareTag (string)
+UnityEngine.Component:CompareTag (string)
+IceWorldRunner.FallingIcicle:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Scripts/Environment/FallingIcicle.cs:95)
+
+[Assets/Scripts/Environment/FallingIcicle.cs line 95]
+
+Tag: Ground is not defined.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.GameObject:CompareTag_Internal (string)
+UnityEngine.GameObject:CompareTag (string)
+UnityEngine.Component:CompareTag (string)
+IceWorldRunner.FallingIcicle:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Scripts/Environment/FallingIcicle.cs:95)
+
+[Assets/Scripts/Environment/FallingIcicle.cs line 95]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildIcicleDropAlley (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:246)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:151)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 151]
+
+Asset Pipeline Refresh (id=7b4d3b7760dd72240adbee1deae10524): Total: 0.004 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.834700 ms
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.845 ms
+	Integration:            22.312 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       3.711 ms
+	Total Operation Time:   26.872 ms
+Unloading 38 unused Assets / (429.1 KB). Loaded Objects now: 2007.
+Memory consumption went from 407.8 MB to 407.4 MB.
+Total: 16.565000 ms (FindLiveObjects: 0.380900 ms CreateObjectMapping: 0.030500 ms MarkObjects: 15.764100 ms  DeleteObjects: 0.178100 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.819 ms
+	Integration:            18.500 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.058 ms
+	Total Operation Time:   19.379 ms
+Unloading 0 unused Assets / (172.6 KB). Loaded Objects now: 1986.
+Memory consumption went from 407.9 MB to 407.7 MB.
+Total: 19.807300 ms (FindLiveObjects: 0.401000 ms CreateObjectMapping: 0.027700 ms MarkObjects: 19.194500 ms  DeleteObjects: 0.011700 ms)
+
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  2.073 seconds
+Domain Reload Profiling: 3118ms
+	BeginReloadAssembly (689ms)
+		DisableScriptedObjects (202ms)
+		CreateAndSetChildDomain (170ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (221ms)
+		LoadAssemblies (205ms)
+		TypeCache.Refresh (6ms)
+		AnalyzeDomain (3ms)
+	FinalizeReload (2076ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (177ms)
+			ProcessInitializeOnLoadAttributes (112ms)
+			ProcessInitializeOnLoadMethodAttributes (147ms)
+			AfterProcessingInitializeOnLoad (8ms)
+		AwakeInstancesAfterBackupRestoration (1017ms)
+
+Asset Pipeline Refresh (id=be685da4577203c4299bdf31924de183): Total: 3.330 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2177 ms
+		Asset DB Callback time: managed=35 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=1109 ms, compile time=6 ms, other=0 ms
+		Project Asset Count: scripts=97, non-scripts=191
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 3.895ms
+	ApplyChangesToAssetFolders: 0.166ms
+	Collect global state as custom dependencies: 2.670ms
+	ProcessAssetsWithTransientArtifactChanges: 0.058ms
+	CategorizeAssets: 3.985ms
+	CompileScripts: 5.584ms
+	ImportOutOfDateAssets: 2077.582ms (2076.486ms without children)
+		UnloadImportedAssets: 0.352ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.064ms
+		ImportSchedulerStart: 0.667ms
+	PostProcessAllAssets: 35.999ms
+		MonoPostProcessAllAssets: 35.990ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 11.643ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 10.349ms
+			AssetPostprocessor.OnPostprocessAllAssets 9.562ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 6.706ms
+			AssetChangedListener.OnPostprocessAllAssets 5.215ms
+			SyncVS.PostprocessSyncProject 3.526ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 2.760ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 2.535ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.721ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.272ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 1.152ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.726ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.594ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.580ms
+			AssetEvents.OnPostprocessAllAssets 0.510ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.500ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.376ms
+			AssetProcessor.OnPostprocessAllAssets 0.372ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.356ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.334ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.326ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.323ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.262ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.196ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.194ms
+	GenerateScriptTypeHashes: 1.067ms
+	GenerateScriptTypeSerializationHashes: 2.641ms
+	Untracked: 1148.511ms
+
+<color=cyan>[IceWorldRunner]</color> Initializing Frost Runner World...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+IceWorldRunner.GameBootstrap:InitializeGame () (at Assets/Scripts/Bootstrap/GameBootstrap.cs:24)
+IceWorldRunner.GameBootstrap:AutoBootstrap () (at Assets/Scripts/Bootstrap/GameBootstrap.cs:18)
+
+(Filename: Assets/Scripts/Bootstrap/GameBootstrap.cs Line: 24)
+
+<color=cyan>[IceWorldRunner]</color> Frost Runner World successfully initialized!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+IceWorldRunner.GameBootstrap:InitializeGame () (at Assets/Scripts/Bootstrap/GameBootstrap.cs:121)
+IceWorldRunner.GameBootstrap:AutoBootstrap () (at Assets/Scripts/Bootstrap/GameBootstrap.cs:18)
+
+(Filename: Assets/Scripts/Bootstrap/GameBootstrap.cs Line: 121)
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.035 ms
+	Integration:            147.794 ms
+	Integration of assets:  0.009 ms
+	Thread Wait Time:       0.022 ms
+	Total Operation Time:   148.859 ms
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildRunway (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:167)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:139)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:75)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 139]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildRunway (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:167)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:139)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:76)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 139]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildRunway (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:167)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:139)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 139]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildRunway (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:167)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:139)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 139]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildIcicleDropAlley (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:246)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:151)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 151]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildSlideGauntlet (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:182)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:142)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 142]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildSlideGauntlet (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:187)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:142)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 142]
+
+[Licensing::Client] Successfully resolved entitlement details
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildSlideGauntlet (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:182)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:142)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 142]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildSlideGauntlet (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:187)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:142)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 142]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildSlideGauntlet (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:182)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:142)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 142]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildSlideGauntlet (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:187)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:142)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 142]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildIcicleDropAlley (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:246)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:151)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 151]
+
+Tag: Ground is not defined.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.GameObject:CompareTag_Internal (string)
+UnityEngine.GameObject:CompareTag (string)
+UnityEngine.Component:CompareTag (string)
+IceWorldRunner.FallingIcicle:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Scripts/Environment/FallingIcicle.cs:95)
+
+[Assets/Scripts/Environment/FallingIcicle.cs line 95]
+
+Tag: Ground is not defined.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.GameObject:CompareTag_Internal (string)
+UnityEngine.GameObject:CompareTag (string)
+UnityEngine.Component:CompareTag (string)
+IceWorldRunner.FallingIcicle:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Scripts/Environment/FallingIcicle.cs:95)
+
+[Assets/Scripts/Environment/FallingIcicle.cs line 95]
+
+Tag: Ground is not defined.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.GameObject:CompareTag_Internal (string)
+UnityEngine.GameObject:CompareTag (string)
+UnityEngine.Component:CompareTag (string)
+IceWorldRunner.FallingIcicle:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Scripts/Environment/FallingIcicle.cs:95)
+
+[Assets/Scripts/Environment/FallingIcicle.cs line 95]
+
+Tag: Ground is not defined.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.GameObject:CompareTag_Internal (string)
+UnityEngine.GameObject:CompareTag (string)
+UnityEngine.Component:CompareTag (string)
+IceWorldRunner.FallingIcicle:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Scripts/Environment/FallingIcicle.cs:95)
+
+[Assets/Scripts/Environment/FallingIcicle.cs line 95]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildSlideGauntlet (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:182)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:142)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 142]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildSlideGauntlet (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:187)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:142)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 142]
+
+Asset Pipeline Refresh (id=036f78f10948b7b48a1e41d5adfb67dc): Total: 0.021 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=0e0b72c7c36baef4aa44715f07488710): Total: 0.004 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=c944f7a580a75b94383b3831077dd525): Total: 0.005 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=a363dd79e97366e468d5cfec220bbae7): Total: 0.006 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.104 ms
+	Integration:            18.780 ms
+	Integration of assets:  0.005 ms
+	Thread Wait Time:       0.018 ms
+	Total Operation Time:   19.907 ms
+Unloading 2 unused Assets / (376.7 KB). Loaded Objects now: 1983.
+Memory consumption went from 412.1 MB to 411.8 MB.
+Total: 15.974600 ms (FindLiveObjects: 0.375700 ms CreateObjectMapping: 0.027900 ms MarkObjects: 15.329700 ms  DeleteObjects: 0.062900 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  2.107 seconds
+Domain Reload Profiling: 3147ms
+	BeginReloadAssembly (704ms)
+		DisableScriptedObjects (228ms)
+		CreateAndSetChildDomain (166ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (219ms)
+		LoadAssemblies (207ms)
+		TypeCache.Refresh (7ms)
+		AnalyzeDomain (3ms)
+	FinalizeReload (2109ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (186ms)
+			ProcessInitializeOnLoadAttributes (109ms)
+			ProcessInitializeOnLoadMethodAttributes (143ms)
+			AfterProcessingInitializeOnLoad (10ms)
+		AwakeInstancesAfterBackupRestoration (1054ms)
+
+Asset Pipeline Refresh (id=f95dd996800297348b61405106dde77e): Total: 3.340 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2202 ms
+		Asset DB Callback time: managed=34 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=1097 ms, compile time=5 ms, other=0 ms
+		Project Asset Count: scripts=97, non-scripts=191
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 2.843ms
+	ApplyChangesToAssetFolders: 0.139ms
+	Collect global state as custom dependencies: 2.066ms
+	ProcessAssetsWithTransientArtifactChanges: 0.052ms
+	CategorizeAssets: 3.770ms
+	CompileScripts: 5.152ms
+	ImportOutOfDateAssets: 2110.843ms (2109.556ms without children)
+		UnloadImportedAssets: 0.375ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.081ms
+		ImportSchedulerStart: 0.816ms
+	PostProcessAllAssets: 34.297ms
+		MonoPostProcessAllAssets: 34.289ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 11.724ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 10.349ms
+			AssetPostprocessor.OnPostprocessAllAssets 9.562ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 6.706ms
+			AssetChangedListener.OnPostprocessAllAssets 5.215ms
+			SyncVS.PostprocessSyncProject 3.378ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 2.760ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 2.535ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.678ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.272ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 1.152ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.726ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.586ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.560ms
+			AssetEvents.OnPostprocessAllAssets 0.510ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.500ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.376ms
+			AssetProcessor.OnPostprocessAllAssets 0.372ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.356ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.323ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.319ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.316ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.262ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.194ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.192ms
+	GenerateScriptTypeHashes: 1.073ms
+	GenerateScriptTypeSerializationHashes: 2.521ms
+	Untracked: 1134.106ms
+
+<color=cyan>[IceWorldRunner]</color> Initializing Frost Runner World...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+IceWorldRunner.GameBootstrap:InitializeGame () (at Assets/Scripts/Bootstrap/GameBootstrap.cs:24)
+IceWorldRunner.GameBootstrap:AutoBootstrap () (at Assets/Scripts/Bootstrap/GameBootstrap.cs:18)
+
+(Filename: Assets/Scripts/Bootstrap/GameBootstrap.cs Line: 24)
+
+<color=cyan>[IceWorldRunner]</color> Frost Runner World successfully initialized!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+IceWorldRunner.GameBootstrap:InitializeGame () (at Assets/Scripts/Bootstrap/GameBootstrap.cs:121)
+IceWorldRunner.GameBootstrap:AutoBootstrap () (at Assets/Scripts/Bootstrap/GameBootstrap.cs:18)
+
+(Filename: Assets/Scripts/Bootstrap/GameBootstrap.cs Line: 121)
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.955 ms
+	Integration:            164.393 ms
+	Integration of assets:  0.005 ms
+	Thread Wait Time:       0.030 ms
+	Total Operation Time:   165.383 ms
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildRunway (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:167)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:139)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:75)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 139]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildRunway (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:167)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:139)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:76)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 139]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildRunway (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:167)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:139)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 139]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildRunway (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:167)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:139)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 139]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:205)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:208)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:211)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreateHazardSpikes (UnityEngine.GameObject,UnityEngine.Vector3,single) (at Assets/Scripts/Spawners/ChunkManager.cs:377)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:214)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildBouncyGeyser (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:262)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:154)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 154]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildBouncyGeyser (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:265)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:154)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 154]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildBouncyGeyser (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:268)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:154)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 154]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildBouncyGeyser (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:271)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:154)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Start () (at Assets/Scripts/Spawners/ChunkManager.cs:81)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 154]
+
+[Licensing::Client] Successfully resolved entitlement details
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:205)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:208)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:211)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreateHazardSpikes (UnityEngine.GameObject,UnityEngine.Vector3,single) (at Assets/Scripts/Spawners/ChunkManager.cs:377)
+IceWorldRunner.ChunkManager:BuildCrevasseLeap (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:214)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:145)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 145]
+
+Asset Pipeline Refresh (id=6e5fa0dccc8f2664fa17223f747c08de): Total: 0.027 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=5862803317d9a02429758a35e91dc5e5): Total: 0.005 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildBouncyGeyser (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:262)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:154)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 154]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildBouncyGeyser (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:265)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:154)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 154]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildBouncyGeyser (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:268)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:154)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 154]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildBouncyGeyser (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:271)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:154)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 154]
+
+Asset Pipeline Refresh (id=ebb652a26fe48124e8d9819f9fc640b5): Total: 0.006 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildSlideGauntlet (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:182)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:142)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 142]
+
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SpriteRenderer:set_drawMode (UnityEngine.SpriteDrawMode)
+IceWorldRunner.ChunkManager:CreatePlatform (UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Vector2,IceWorldRunner.PlatformType) (at Assets/Scripts/Spawners/ChunkManager.cs:290)
+IceWorldRunner.ChunkManager:BuildSlideGauntlet (UnityEngine.GameObject) (at Assets/Scripts/Spawners/ChunkManager.cs:187)
+IceWorldRunner.ChunkManager:SpawnChunk (IceWorldRunner.ChunkType) (at Assets/Scripts/Spawners/ChunkManager.cs:142)
+IceWorldRunner.ChunkManager:SpawnNextRandomChunk () (at Assets/Scripts/Spawners/ChunkManager.cs:127)
+IceWorldRunner.ChunkManager:Update () (at Assets/Scripts/Spawners/ChunkManager.cs:92)
+
+[Assets/Scripts/Spawners/ChunkManager.cs line 142]
+
+Asset Pipeline Refresh (id=a2f19b31dc8b0e243a8a197992eb8202): Total: 0.005 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=e1928bcad478a3948a9a3fc6fc459aa9): Total: 0.008 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+MonoPathRemapper: Attempts to remap: 8434; Successful remaps: 1072
+Serialized file version minimum: 23, current 23
+[LAYOUT] About to save layout C:\Users\golis\OneDrive\Desktop\IceWorldRunner\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/golis/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-golisrijareddy-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-golisrijareddy channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+Shut down UDS service system complete
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+abort_threads: Failed aborting id: 00000000000037A4, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 000000000000838C, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000037A4, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 000000000000838C, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 3680
+VBCSCompilerPreWarmer: requested VBCSCompiler shutdown
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1793965071260,"processId":6068,"allocatedMemory":11219616,"memoryLabels":[{"Default":161244},{"Permanent":15516},{"NewDelete":69733},{"Thread":4153944},{"Manager":32765},{"VertexData":8},{"Geometry":824},{"Texture":24},{"Shader":840511},{"Material":132},{"GfxDevice":55968},{"GfxThread":24},{"Animation":952},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":20160},{"Input":45280},{"JobScheduler":256},{"TextLib":21846},{"Mono":48},{"ScriptingNativeRuntime":1210712},{"BaseObject":111456},{"Resource":1444},{"Renderer":2504},{"Transform":4781},{"File":16300},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":584902},{"StaticString":3808},{"Utility":2674426},{"Curl":48},{"PoolAlloc":2168},{"AI":80},{"TypeTree":8869},{"ScriptManager":44296},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":8304},{"WebRequest":4582},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"Camera":729},{"Secure":265},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"EntityIdStore":33088},{"Gui":222},{"EditorUtility":145944},{"VersionControl":8},{"Undo":931},{"AssetDatabase":433031},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36921},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":278},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3600},{"Windowing":456},{"Licensing":12814},{"AssetReference":32},{"IPCStream":32}]}
